@@ -1,4 +1,6 @@
 global class CABatchProcess implements Database.Batchable<sObject>,Database.Stateful{
+   
+   // save from GIT7thFeb- save 1
    global String Query;   
    global list<string> lstCommercialIds;
    global list<account> selected_accountslist;
